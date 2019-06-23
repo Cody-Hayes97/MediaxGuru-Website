@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/8d53a6e483.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="SoloStyle.css" />
+    <title>WebsiteSolo</title>
+  </head>
+  <body>
+    <ul class="top-bar">
+      <li onmouseover="scaleUp(this,'30px')" onmouseout="scaleUp(this,'20px')">
+        Sign up for Notifications
+      </li>
+      <li onmouseover="scaleUp(this,'30px')" onmouseout="scaleUp(this,'20px')">
+        Follow on Patreon
+      </li>
+      <li onmouseover="scaleUp(this,'30px')" onmouseout="scaleUp(this,'20px')">
+        Follow me on Social Media
+      </li>
+    </ul>
+    <h1>The MediaxGuru Website</h1>
+    <div class="container">
+      <h3 onclick="vidDrop()" class="vid-header">
+        Videos
+      </h3>
+      <div class="videos hidden">
+        <p class="beyond">
+          Scared Straight Commentary
+        </p>
+        <a href="ScaredPlay/VideoPlay.html"
+          ><img src="./IMGS/BeyondScared.png" id="Beyond" alt=""
+        /></a>
+        <p>Sims 4 Playthrough</p>
+        <a href="https://www.youtube.com/watch?v=SKYea4zfZNs&t=53s"
+          ><img src="./IMGS/Sims4playthrough.png" id="Sims" alt=""
+        /></a>
+        <p>Shitty Sonic Browser Games</p>
+        <a href="https://www.youtube.com/watch?v=-mVZDSJHYv4&t=1s"
+          ><img src="./IMGS/SonicBrowser.jpg" id="Sonic" alt=""
+        /></a>
+      </div>
+      <div class="about">
+        <h3 class="about-head">About</h3>
+        <span class="about-span"
+          >Shitty Video Games, movie reviews, TV shows, and everything in
+          between. Subscribe to MediaxGuru to stay up to date on all future
+          videos!</span
+        >
+      </div>
+      <div class="contact">
+        <h3>Contact</h3>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="img-container" style="font-size: 24px;">
+      <i class="fab fa-instagram fa-lg"></i>
+      <a href="https://www.youtube.com/channel/UCFDtaDP1wHkFYPeM6lEv3Yw"
+        ><i class="fab fa-youtube fa-lg"></i
+      ></a>
+    </div>
+
+    <script src="SoloApp.js"></script>
+  </body>
+</html>
